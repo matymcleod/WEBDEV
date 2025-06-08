@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
+  <title>Maty's CSS Flag Project</title>
   <link rel="stylesheet" href="./style.css">
   <style>
     
@@ -13,33 +13,38 @@
       width: 900px;
       color: white;
       text-align: center;
+      position: relative;
     }
 
-    .flag p {
-      position: relative;
-      margin-top: 20px;
-      font-size: 4em;
+    .flag > p {
+      margin: 0px;
+      padding: 0px;
+      font-size: 5rem;
       text-align: center;
+      height: 150px;
 
     }
     
-    div div {
-      position: relative;
+    .flag > div {
       background-color: #002868;
+      position: absolute;
       height: 300px;
+      width: 100%
     } 
     
-    div div p {
+    .flag > div div p {
       position: relative;
-      left: 350px;
-      top: 50px;
       background-color: white;
       height: 200px;
       width: 200px;
+      top: 50px;
+      left: 350px;
       border-radius: 50%;
       text-align: center; 
-      font-size: 6em;
+      font-size: 5em;
       color: black;
+      padding: 0px;
+      margin: 0px;
     }
 
     
