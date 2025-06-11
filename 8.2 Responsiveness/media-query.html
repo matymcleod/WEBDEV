@@ -10,16 +10,45 @@
       background-color: rebeccapurple;
       height: 500px;
       width: 500px;
+      border:  ridge 40px;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 500px) {
 
       /* CSS for screens below or equal to 600px wide */
       div {
-        height: 200px;
-        width: 200px;
+        height: 400px;
+        width: 400;
+        background-color: red;
+        border: dashed 10px;
       }
     }
+
+    @media (max-width: 400px){
+      div {
+        background-color: orange;
+        height: 250px;
+        width: 250px;
+        border: dotted 20px;
+
+      }
+    }
+
+    @media (max-width: 200px){
+      div {
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        border:  groove 30px;
+      }
+    }
+
+
+
+
+
+
+
   </style>
 </head>
 
