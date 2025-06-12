@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.main {
+  flex: 1;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+}
+
+.card {
+  display: inline-block;
+  
+}
+
+#we-are {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+#creative {
+  display: inline-block;
+  position: relative;
+  color: midnightblue;
+  padding-left: 1rem;
+  margin: 0px;
+}
+
+#design-agency {
+  margin: 0px;
+}
