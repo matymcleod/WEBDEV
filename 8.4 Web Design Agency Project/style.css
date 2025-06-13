@@ -22,7 +22,12 @@ footer {
 
 .tile-image {
   height: 200px;
+  margin-right: 50px;
   float: left;
+}
+
+.card {
+  width: 45%;
 }
 
 .left {
@@ -30,30 +35,15 @@ footer {
 }
 
 .right {
-  display: inline-block;
   float: right;
 }
-
-.card {
-  display: inline-block;
-  
-}
-
-#we-are {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 0px;
-  margin: 0px;
+#statement {
+  margin: 2rem;
 }
 
 #creative {
   display: inline-block;
   position: relative;
   color: midnightblue;
-  padding-left: 1rem;
-  margin: 0px;
-}
-
-#design-agency {
   margin: 0px;
 }
