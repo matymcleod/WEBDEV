@@ -50,26 +50,29 @@ footer {
 
 @media (max-width:680px){ 
   .logo {
-    width: 5rem;
+    width: 100%;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    text-align: center;
   }
 
   .card {
     display:block;
-    text-align: justify;
+    width: 100%;
+    margin-bottom: 1em;
   }
 
-  .left .right {
+  .card img {
     display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1em;
   }
 
-  .tile-image {
-    width: 400px;
-    float: left;
-  }
-
+  footer {
+    text-align: center
+  };
 
 }
