@@ -47,3 +47,29 @@ footer {
   color: midnightblue;
   margin: 0px;
 }
+
+@media (max-width:680px){ 
+  .logo {
+    width: 5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .card {
+    display:block;
+    text-align: justify;
+  }
+
+  .left .right {
+    display: block;
+  }
+
+  .tile-image {
+    width: 400px;
+    float: left;
+  }
+
+
+}
