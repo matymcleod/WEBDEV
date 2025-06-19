@@ -14,26 +14,67 @@
       }
       .pricing-container {
         display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 2rem;
-
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2rem;
+        
+      }
+      
+      .pricing-plan {
+        border-radius: 2%;
+        background-color: rgb(237, 236, 236);
+        display: flex;
+        row-gap: 40px;
+        column-gap: 2rem;
+        flex: 1;
+        flex-direction: column;
+        min-width: 350px;
+        max-width: 400px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
       }
 
-      .pricing-plan {
-        border: solid 2px;
+      .plan-title {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1em;
+      }
+
+      .plan-price {
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 20px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .standard-support {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .plan-button {
+        border-style: none;
         border-radius: 10%;
-        background-color: rgb(237, 236, 236);
+        background-color: orange;
+        color: white;
+        padding: 5px;
+        margin-bottom: 1em;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {
+      @media (max-width: 450px) {
         .pricing-container {
           flex-direction: column;
           align-items: center;
-        }
-
-        .pricing-plan {
-          margin-bottom: 2rem;
         }
       }
     </style>
@@ -57,7 +98,7 @@
         <ul class="plan-features">
           <li>✅ 50GB Storage</li>
           <li>✅ 5 Users</li>
-          <li>✅ Phone &amp; Email Support</li>
+          <li class="standard-support">✅ Phone &amp; Email Support</li>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
