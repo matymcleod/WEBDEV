@@ -2,13 +2,16 @@ body {
   background-color: gold;
 }
 .container {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-rows: repeat(8, 100px); 
+  grid-template-columns: repeat(8, 100px); 
+
 }
 
-p {
-  padding: 10px;
-  flex-wrap: wrap;
-  border: solid white;
-  flex: 1 1 0;
+.dark {
+  background-color: lightseagreen;
+}
+.light {
+  background-color: lightcyan;
+
 }
