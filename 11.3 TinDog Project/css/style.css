@@ -4,6 +4,26 @@
   animation: gradient-animation 18s ease infinite;
 }
 
+.container {
+  width:100%;
+  margin-top: 3rem;
+  padding-top: 0;
+}
+
+.footer {
+  display: flex;
+}
+.dog-talk {
+  font-size: 2rem;
+}
+.dog-testamonial {
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  /* margin-top: 2rem; */
+}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
